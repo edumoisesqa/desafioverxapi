@@ -3,7 +3,7 @@
 Funcionalidade: Listar informacoes sobre produtos e estabelecimentos
     Como usuario do sistema 
     Eu quero realizar as requisicoes  na API
-    Afim de visualizar as informacoes sobre os produtos e financiamentos
+    Afim de visualizar as informacoes sobre os produtos e estabelecimentos
 
 
 Cenario: Listar produtos e estabelecimentos

@@ -3,6 +3,14 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    allure-cucumber (2.18.0)
+      allure-ruby-commons (= 2.18.0)
+      cucumber (>= 4.0.0, < 9)
+    allure-ruby-commons (2.18.0)
+      mime-types (>= 3.3, < 4)
+      oj (>= 3.10, < 4)
+      require_all (>= 2, < 4)
+      uuid (>= 2.3, < 3)
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     ast (2.4.2)
@@ -71,6 +79,8 @@ GEM
       concurrent-ruby (~> 1.0)
     io-like (0.3.1)
     json (1.8.6)
+    macaddr (1.7.2)
+      systemu (~> 2.6.5)
     matrix (0.4.2)
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
@@ -81,6 +91,7 @@ GEM
     multi_xml (0.6.0)
     nokogiri (1.13.6-x86-mingw32)
       racc (~> 1.4)
+    oj (3.13.14)
     parallel (1.22.1)
     parser (3.1.2.0)
       ast (~> 2.4.1)
@@ -100,6 +111,7 @@ GEM
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.4.0)
+    require_all (3.0.0)
     rexml (3.2.5)
     rspec (3.11.0)
       rspec-core (~> 3.11.0)
@@ -139,8 +151,11 @@ GEM
     syntax (1.2.2)
     sys-uname (1.2.2)
       ffi (~> 1.1)
+    systemu (2.6.5)
     ttfunk (1.7.0)
     unicode-display_width (2.1.0)
+    uuid (2.3.9)
+      macaddr (~> 1.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -151,6 +166,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  allure-cucumber
   bundler
   capybara
   chromedriver-helper

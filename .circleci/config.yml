@@ -56,4 +56,6 @@ workflows:
                            - developer
                            - test
                            bundle exec cucumber --format pretty --format html --out=test_results/features_report.html
+                           default: allure
+allure: --format AllureCucumber::Formatter --out=test_report
       # See https://circleci.com/docs/2.0/deployment-integrations/ for example deploy configs

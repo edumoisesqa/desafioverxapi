@@ -20,3 +20,4 @@ gem 'bundler'
 gem 'date_format' #docs http://rpatil.github.io/date-format/
 gem 'chromedriver-installer', '~> 0.0.6'
 gem 'prawn', '~> 2.1'
+gem 'allure-cucumber'
